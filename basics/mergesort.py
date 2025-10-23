@@ -34,6 +34,7 @@ def merge(left, right):
     else:
         merged += right
 
+    debug_print(value_list=value_list)
     return merged
 
 
